@@ -1,0 +1,18 @@
+@ApiSgta_HostAddress = http://localhost:5105
+
+
+###
+
+###  Login - obtener token JWT
+POST {{ApiSgta_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "correo": "admin@taller.com",
+  "password": "hashedpassword1"
+}
+
+### 
+GET {{ApiSgta_HostAddress}}/api/auditoria
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYWRtaW5AdGFsbGVyLmNvbSIsImV4cCI6MTc1MDk3NzQyMSwiaXNzIjoiQXBpU2d0YSIsImF1ZCI6IkFwaVNndGFVc2VycyJ9.SrA4-FWM478ctem-iMS8-s-xGutlIoSJsOxozLKCPvw
+Accept: application/json

@@ -1,0 +1,35 @@
+# Archivos de compilación
+bin/
+obj/
+project.lock.json
+project.assets.json
+*.nuget.props
+*.nuget.targets
+*.nuget.g.props
+*.nuget.g.targets
+*.csproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de cache y build generados por MSBuild
+*.cache
+*.dbmdl
+*.bak
+*.tmp
+*.log
+
+# Archivos específicos de VS
+.vs/
+.vscode/
+
+# Archivos generados por NuGet y MSBuild
+*.cache
+*.assets.json
+*.nuget.*
+*.g.props
+*.g.targets
+
+# Archivos de configuración generados
+GeneratedMSBuildEditorConfig.editorconfig

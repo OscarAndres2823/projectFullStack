@@ -32,7 +32,7 @@ Este es el frontend de un sistema de gestión automotriz desarrollado con **Reac
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/SebaasG/FrontFullStackProject
+   git clone https://github.com/OscarAndres2823/projectFullStack.git
    cd nombre-repo-frontend
 
 2. Ejecuta:
